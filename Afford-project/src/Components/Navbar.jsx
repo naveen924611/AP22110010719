@@ -22,9 +22,7 @@ export default function Navbar() {
           <li className="nav-item">
             <Link className="nav-link"  to='/f-d'>Trending post</Link>
           </li>
-          <li className="nav-item">
-            <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
+          
         </ul>
       </div>
     </div>
