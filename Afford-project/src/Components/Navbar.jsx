@@ -17,10 +17,10 @@ export default function Navbar() {
             <Link className="nav-link active" aria-current="page" to='/' >Home</Link>
           </li>
           <li className="nav-item"> 
-            <Link className="nav-link" to='/T-u'>popular</Link>
+            <Link className="nav-link" to='/T-u'>Top Users</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link"  to='/f-d'>Feed</Link>
+            <Link className="nav-link"  to='/f-d'>Trending post</Link>
           </li>
           <li className="nav-item">
             <a className="nav-link disabled" aria-disabled="true">Disabled</a>

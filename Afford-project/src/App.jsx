@@ -13,9 +13,9 @@ function App() {
      <Navbar/>
     <Routes>
       
-          <Route path="/" element={<Trending_post/>} />
+          <Route path="/" element={<Feed/>} />
           <Route path="/T-u" element={<Top_user/>} />
-          <Route path="/f-d" element={<Feed/>} />
+          <Route path="/f-d" element={<Trending_post/>} />
         </Routes>
     </Router>
     </>
